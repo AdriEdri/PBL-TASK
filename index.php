@@ -23,12 +23,12 @@
 <!-- header section start -->
 <section class="header">
 
-    <a href="home.php" class="logo">Viator</a>
+    <a href="index.php" class="logo">Viator</a>
 
     <nav class="navbar">
     <?php
     $navItems = [
-        "Home" => "home.php",
+        "Home" => "index.php",
         "About" => "about.php",
         "Package" => "package.php",
         "Book" => "book.php"
@@ -225,7 +225,7 @@
 
         <div class="box">
             <h3>quick links</h3>
-            <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
+            <a href="index.php"> <i class="fas fa-angle-right"></i> home</a>
             <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
             <a href="package.php"> <i class="fas fa-angle-right"></i> package</a>
             <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>
